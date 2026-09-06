@@ -6,11 +6,10 @@ public class App {
        /* float digunakan untuk menyimpan angka pecahan ukuran 32-bit dan 
        pada float harus ditambahkan (f) pada akhir angka yang ditulis  */
 
-       double berat = 85.7654321;
-       float suhu = -45.7f;
+       double berat_badan = 55.5;
+       float tinggi_badan = 160.25f;
 
-       System.out.println("berat: " + 85.7654321);
-       System.out.println("suhu: " + -45.7);
+       System.out.printf("%f %f", berat_badan, tinggi_badan);
        
 
     }
