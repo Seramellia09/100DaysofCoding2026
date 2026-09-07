@@ -1,22 +1,27 @@
 public class App {
-     public static void main(String[] args) {
-
-        /* char digunakan untuk memunculkan karakter huruf, angka ataupun simbol. */
-        /* boolean digunakan untuk menyimpan dua nilai mutlak (true) dan (false). */
-
-        char huruf = 'A';
-        char angka = '9';
-        char simbol = '$';
-        boolean lulus = true;
-        boolean tidak_lulus = false;
-
-        System.out.println("huruf: " + 'A');
-        System.out.println("angka: " + 9);
-        System.out.println("simbol: " + '$');
-        System.out.println("lulus: " + true);
-        System.out.println("tidak_lulus: " + false);
+    public static void main(String[] args) throws Exception {
+     
+/* sera adalah mahasiswa baru, dia ingin membuat program 
+sederhana untuk mendata dirinya sendiri.
+dengan data sebagai berikut: */
 
 
+       // 1. Umur = 18
+       // 2. IPK = 4.00
+       // 3. Kode Jurusan = 'I'
+       // 4. Status = "masih aktif kuliah"
 
-     }
+       String Nama = "sera";
+       int Umur = 18;
+       double IPK = 4.00;
+       char Jurusan = 'I';
+       boolean Status = true;
+
+        System.out.println("Nama: " + Nama);
+        System.out.println("Umur: " + Umur);
+        System.out.println("IPK: " + IPK);
+        System.out.println("Jurusan: " + Jurusan);
+        System.out.println("Status: " + Status);
+
+    }
 }
