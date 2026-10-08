@@ -25,7 +25,7 @@ Scanner in = new Scanner(System.in);
 
     if (angka > 100) {
          kode += "+";
-    } else if (angka < 100) {
+    } else if (angka < -100) {
          kode += "-";
     }
 
