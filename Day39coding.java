@@ -16,7 +16,7 @@ if (c == 'A') {
 } else if (c == 'D') {
   System.out.println(a/b);
 } else {
-  System.out.println("Angka Tidak Valid");
+  System.out.println("Tidak Valid");
 }
 
  }
